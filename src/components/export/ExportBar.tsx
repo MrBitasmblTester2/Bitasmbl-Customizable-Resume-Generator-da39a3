@@ -1,0 +1,1 @@
+import React from 'react';export const ExportBar:React.FC=()=>{return(<div className="flex justify-end gap-2 mb-4"><button className="px-3 py-1 text-sm border rounded" onClick={()=>window.print()}>Print / Export</button></div>);};
