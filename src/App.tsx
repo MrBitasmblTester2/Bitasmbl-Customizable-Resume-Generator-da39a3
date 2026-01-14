@@ -1,0 +1,1 @@
+import React from 'react';import {EditorLayout} from './components/layout/EditorLayout';const App:React.FC=()=>{return(<div className="min-h-screen bg-gray-50 text-gray-900"><EditorLayout/></div>);};export default App;
