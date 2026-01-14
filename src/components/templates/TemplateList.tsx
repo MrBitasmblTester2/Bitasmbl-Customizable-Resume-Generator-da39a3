@@ -1,0 +1,1 @@
+import React from 'react';export const TemplateList:React.FC=()=>{return(<div className="space-y-2"><h2 className="font-semibold mb-2">Templates</h2><button className="w-full text-left px-2 py-1 rounded hover:bg-gray-100">Default Template</button></div>);};
