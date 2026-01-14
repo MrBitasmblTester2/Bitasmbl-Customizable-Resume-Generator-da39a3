@@ -1,0 +1,1 @@
+import React from 'react';export const ResumePreview:React.FC=()=>{return(<div className="border rounded-lg p-4 bg-white shadow-sm"><h2 className="text-lg font-semibold mb-2">Preview</h2><div>Preview content</div></div>);};
