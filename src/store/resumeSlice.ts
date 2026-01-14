@@ -1,0 +1,1 @@
+import {createSlice} from '@reduxjs/toolkit';const resumeSlice=createSlice({name:'resume',initialState:{sections:[]},reducers:{}});export const {}=resumeSlice.actions;export default resumeSlice.reducer;
