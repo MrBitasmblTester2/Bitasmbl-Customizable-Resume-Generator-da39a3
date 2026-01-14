@@ -1,1 +1,1 @@
-import {configureStore} from '@reduxjs/toolkit';export const store=configureStore({reducer:{}});export type RootState=ReturnType<typeof store.getState>;export type AppDispatch=typeof store.dispatch;
+import {configureStore} from '@reduxjs/toolkit';import resume from './resumeSlice';import templates from './templatesSlice';export const store=configureStore({reducer:{resume,templates}});export type RootState=ReturnType<typeof store.getState>;export type AppDispatch=typeof store.dispatch;
