@@ -1,0 +1,1 @@
+import {createSlice} from '@reduxjs/toolkit';const templatesSlice=createSlice({name:'templates',initialState:{items:[],selectedId:null},reducers:{}});export const {}=templatesSlice.actions;export default templatesSlice.reducer;
